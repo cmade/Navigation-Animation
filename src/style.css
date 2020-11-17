@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  animation: navi 2s ease-in-out;
+}
+a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: black solid;
+  margin: 10px;
+  padding: 2px 12px;
+  border-radius: 10%;
+  transition: color 0.4s;
+  transition: background-color .5s;
+  font-family: helvetica;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+}
+
+@keyframes navi {
+  0%{ 
+    width: 0%;
+  }
+  100%{ 
+    width: 100%;
+  }
+}
